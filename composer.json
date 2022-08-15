@@ -1,6 +1,5 @@
 {
     "name": "uvodohq/composer",
-    "version": "1.0.0-rc1",
     "description": "Uvodo Composer plugin to register custom installer for Uvodo plugins/themese etc.",
     "keywords": [
         "composer",
