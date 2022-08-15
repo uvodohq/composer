@@ -1,0 +1,33 @@
+{
+    "name": "uvodohq/composer",
+    "version": "1.0.0-rc1",
+    "description": "Uvodo Composer plugin to register custom installer for Uvodo plugins/themese etc.",
+    "keywords": [
+        "composer",
+        "plugin",
+        "installer",
+        "uvodo"
+    ],
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vusal Orujov",
+            "email": "or.vusal@gmail.com"
+        }
+    ],
+    "extra": {
+        "class": "Uvodo\\Composer\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uvodo\\Composer\\": "src/"
+        }
+    }
+}
